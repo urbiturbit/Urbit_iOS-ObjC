@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="ProximaNova-Regular.otf">
+            <string>ProximaNova-Regular</string>
+            <string>ProximaNova-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MerchantSetupPhotos">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ok2-Ke-pp9">
+                    <rect key="frame" x="5" y="25" width="365" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ok2-Ke-pp9" secondAttribute="height" multiplier="365:42" id="5l7-Td-e9h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="25"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.30196078430000001" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MERCHANT PHOTOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAD-4H-6EW">
+                    <rect key="frame" x="5" y="55" width="365" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="pAD-4H-6EW" secondAttribute="height" multiplier="365:42" id="6YW-gP-skf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.30196078430000001" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Upload" translatesAutoresizingMaskIntoConstraints="NO" id="XdZ-A0-sPn">
+                    <rect key="frame" x="193" y="100" width="150" height="150"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Upload" translatesAutoresizingMaskIntoConstraints="NO" id="zBh-vl-L3s">
+                    <rect key="frame" x="32" y="260" width="150" height="150"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Upload" translatesAutoresizingMaskIntoConstraints="NO" id="iHI-iO-dNl">
+                    <rect key="frame" x="193" y="260" width="150" height="150"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Upload" translatesAutoresizingMaskIntoConstraints="NO" id="yBY-iF-u97">
+                    <rect key="frame" x="32" y="100" width="150" height="150"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="yBY-iF-u97" firstAttribute="trailing" secondItem="zBh-vl-L3s" secondAttribute="trailing" id="0Oz-0u-jIv"/>
+                <constraint firstItem="ok2-Ke-pp9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="2GT-MC-veP"/>
+                <constraint firstAttribute="trailing" secondItem="yBY-iF-u97" secondAttribute="trailing" priority="900" constant="193" id="6LK-0s-kTz"/>
+                <constraint firstItem="ok2-Ke-pp9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="7kL-97-3og"/>
+                <constraint firstItem="yBY-iF-u97" firstAttribute="leading" secondItem="zBh-vl-L3s" secondAttribute="leading" id="Bhc-Le-m9r"/>
+                <constraint firstItem="iHI-iO-dNl" firstAttribute="leading" secondItem="XdZ-A0-sPn" secondAttribute="leading" id="Dk8-As-Uya"/>
+                <constraint firstAttribute="trailing" secondItem="XdZ-A0-sPn" secondAttribute="trailing" constant="32" id="H7w-Ei-knt"/>
+                <constraint firstAttribute="trailing" secondItem="pAD-4H-6EW" secondAttribute="trailing" constant="5" id="KU2-9q-MNk"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="193" id="Opm-HZ-gJk"/>
+                <constraint firstItem="iHI-iO-dNl" firstAttribute="bottom" secondItem="zBh-vl-L3s" secondAttribute="bottom" id="X0E-zK-1TF"/>
+                <constraint firstAttribute="bottom" secondItem="zBh-vl-L3s" secondAttribute="bottom" priority="900" constant="4" id="Yud-eZ-fU5"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="bottom" secondItem="yBY-iF-u97" secondAttribute="bottom" id="ZIA-vN-jbz"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="top" secondItem="yBY-iF-u97" secondAttribute="top" id="aTK-bV-t5D"/>
+                <constraint firstItem="zBh-vl-L3s" firstAttribute="top" secondItem="yBY-iF-u97" secondAttribute="bottom" constant="10" id="cUq-TJ-Qxh"/>
+                <constraint firstItem="yBY-iF-u97" firstAttribute="top" secondItem="pAD-4H-6EW" secondAttribute="bottom" constant="3" id="d6b-Lu-Ab6"/>
+                <constraint firstAttribute="trailing" secondItem="XdZ-A0-sPn" secondAttribute="trailing" constant="32" id="eeh-ib-ek8"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="leading" secondItem="yBY-iF-u97" secondAttribute="trailing" constant="11" id="fOT-kv-DRO"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="leading" secondItem="yBY-iF-u97" secondAttribute="trailing" constant="11" id="iXk-oZ-Xxw"/>
+                <constraint firstItem="iHI-iO-dNl" firstAttribute="top" secondItem="zBh-vl-L3s" secondAttribute="top" id="jOS-AX-H1v"/>
+                <constraint firstItem="zBh-vl-L3s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="260" id="kbT-RP-4q4"/>
+                <constraint firstAttribute="trailing" secondItem="ok2-Ke-pp9" secondAttribute="trailing" constant="5" id="lO2-eO-vPM"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="leading" secondItem="yBY-iF-u97" secondAttribute="trailing" constant="11" id="lQc-Dc-ldt"/>
+                <constraint firstItem="pAD-4H-6EW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="lWX-dU-dAU"/>
+                <constraint firstItem="yBY-iF-u97" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" priority="900" constant="100" id="la1-3N-xMz"/>
+                <constraint firstItem="yBY-iF-u97" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="pLA-SB-Ota"/>
+                <constraint firstAttribute="bottom" secondItem="yBY-iF-u97" secondAttribute="bottom" priority="900" constant="164" id="qFv-dh-2hy"/>
+                <constraint firstItem="pAD-4H-6EW" firstAttribute="top" secondItem="ok2-Ke-pp9" secondAttribute="bottom" constant="-12" id="ra6-Cp-zEK"/>
+                <constraint firstItem="XdZ-A0-sPn" firstAttribute="top" secondItem="pAD-4H-6EW" secondAttribute="bottom" constant="3" id="vsq-UU-44U"/>
+                <constraint firstItem="iHI-iO-dNl" firstAttribute="trailing" secondItem="XdZ-A0-sPn" secondAttribute="trailing" id="ySZ-6v-IXp"/>
+                <constraint firstItem="yBY-iF-u97" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="32" id="yuT-w5-YWB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="d6b-Lu-Ab6"/>
+                    <exclude reference="pLA-SB-Ota"/>
+                    <exclude reference="eeh-ib-ek8"/>
+                    <exclude reference="fOT-kv-DRO"/>
+                    <exclude reference="iXk-oZ-Xxw"/>
+                    <exclude reference="lQc-Dc-ldt"/>
+                    <exclude reference="vsq-UU-44U"/>
+                    <exclude reference="cUq-TJ-Qxh"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imageViewFirstMerchantPhoto" destination="yBY-iF-u97" id="x8c-5I-KWe"/>
+                <outlet property="imageViewFourthMerchantPhoto" destination="iHI-iO-dNl" id="ZUg-b9-WQy"/>
+                <outlet property="imageViewSecondMerchantPhoto" destination="XdZ-A0-sPn" id="eH0-Y9-Fur"/>
+                <outlet property="imageViewThirdMerchantPhoto" destination="zBh-vl-L3s" id="Lkq-XW-nmT"/>
+                <outlet property="labelBusinessName" destination="ok2-Ke-pp9" id="5ap-hP-YGS"/>
+            </connections>
+            <point key="canvasLocation" x="320.5" y="304.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Upload" width="165" height="166"/>
+    </resources>
+</document>
